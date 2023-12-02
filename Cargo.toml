@@ -1,0 +1,11 @@
+[package]
+name = "persisted-config-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["MoChenYa <2827075398@qq.com>"]
+description = "A simple configuration file read-write library"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
