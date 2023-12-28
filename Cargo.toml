@@ -1,6 +1,6 @@
 [package]
 name = "persisted-config-rs"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["MoChenYa <2827075398@qq.com>"]
 description = "A simple configuration file read-write library"
