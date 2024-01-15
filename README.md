@@ -40,13 +40,13 @@ use persisted_config_rs::PersistedConfig;
 #[tauri::command]
 fn set_item(key: String, value: String) {
     let mut config = PersistedConfig::new("config");
-    config.set_item(key, value);
+    config.save_config(key, value);
 }
 
 #[tauri::command]
 fn get_item(key: String) -> String {
     let config = PersistedConfig::new("config");
-    config.get_item(key)
+    config.get_config(key)
 }
 ```
 
